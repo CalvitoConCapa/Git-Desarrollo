@@ -59,3 +59,18 @@ git config --global user.email "<Email>"
 
 git config --local user.name "<Nombre>"
 git config --local user.email "<Email>"
+
+### Para ver el estado del Working directory
+
+    git status
+
+### Para subir al escenario los archivos (Staging Area)
+
+    git add <nombre>
+    git add . # Agrega todos los archivos al escenario
+
+### Para sacar la foto (Hacer un commit)
+
+    git commit -m "<mensaje>"
+
+###
