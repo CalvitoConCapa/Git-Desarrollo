@@ -73,4 +73,11 @@ git config --local user.email "<Email>"
 
     git commit -m "<mensaje>"
 
-###
+### Para agregar un repositorio remoto a mi repo local
+
+    git remote add origin <url>
+
+### Para suber el repositorio local a remoto
+
+    git push -u <remoto> <local>
+    git push -u origin master
