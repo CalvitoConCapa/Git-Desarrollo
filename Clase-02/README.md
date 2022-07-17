@@ -1,4 +1,6 @@
-# Clase-02
+# -----------------------
+#  Clase-02 - 17/07/2022
+# -----------------------
 
 # EL <> SIGNIFICA QUE ES UNA VARIABLE (OSEA LO QUE CONTENGA PUEDE CAMBIAR DEPENDIENDO LA SITUACIÓN)
 
