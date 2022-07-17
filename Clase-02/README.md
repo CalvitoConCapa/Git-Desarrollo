@@ -71,3 +71,11 @@ git commit -m "mensaje"
 **IMPORTANTE**: El archivo tiene que estar dentro del repositorio de git. O sea los archivos que estan UNTRACKED no los agrega a la foto.
 
     git commit -am "mensaje"
+
+### Crear un commit vacío
+
+    git commit --allow-empty -m "mensaje"
+
+### Agregar algo que me olvide
+
+    git commit --amend
