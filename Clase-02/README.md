@@ -81,3 +81,23 @@ git commit -m "mensaje"
 ### Agregar algo que me olvide
 
     git commit --amend
+
+## GIT ADD
+
+    git add --help
+
+### Por archiuvp
+
+    git add index.html
+
+### O agrego todo
+
+    git add .
+
+### Agrego partes de un archivo
+
+    git add -pq az
+
+    * y = yes
+    * n = no
+    *
