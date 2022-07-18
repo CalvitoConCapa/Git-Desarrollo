@@ -101,3 +101,32 @@ git commit -m "mensaje"
     * y = yes
     * n = no
     *
+
+## GIT REMOTE
+
+    git remote --help
+
+### Para ver los remotos
+
+    git remote
+
+### Para vert los remotos de forma detallada
+
+    git remote -v
+
+### Agregar un remoto
+
+    git remote add <nombre-remoto> <url>
+
+### Renombrar el remoto
+
+    git remote <nombre-original> <nombre-nuevo>
+
+ejemplo
+
+    git remote origin maxi
+
+### Borrar remoto
+
+    git remote rm <alias-del-remoto>
+    git remote remote <alias-del-remoto>
