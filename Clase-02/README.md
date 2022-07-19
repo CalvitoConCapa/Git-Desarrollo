@@ -15,7 +15,7 @@
 * MODIFIEAD > Archivos que se encuentran en el repositorio pero difieren con lo que se encuentra en el Working Directory
 
 
-## GIT LOG
+# GIT LOG
 
 Ayuda de git log
 
@@ -46,14 +46,14 @@ Hasta se pueden convinar
     git log --since="<fecha>" --before="<fecha>" --online -4
 
 
-## GITIGNORE
+# GITIGNORE
 
 Archivo que nos permite no darle seguimiento a otros
 
     .gitignore
 
 
-## GIT COMMIT
+# GIT COMMIT
 
     git commit --help
 
