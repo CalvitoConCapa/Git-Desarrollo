@@ -63,6 +63,7 @@ git config --local user.email "<Email>"
 ### Para ver el estado del Working directory
 
     git status
+    git status -s (Lo mismo pero sin las ayudas(MEGA-RESUMEN))
 
 ### Para subir al escenario los archivos (Staging Area)
 
