@@ -18,3 +18,9 @@ git config --get-regexp alias
 
 git config --global --unset alias.
 EJ: git config --global --unset alias.s
+
+## Info sobre git
+
+manzana
+saitama
+tu hermana
