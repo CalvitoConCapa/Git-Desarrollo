@@ -84,3 +84,4 @@ EJ: git config --global --unset alias.s
     git stash apply
     git stash apply stash@{1}
 
+## GIT RESET
