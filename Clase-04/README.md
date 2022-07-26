@@ -53,3 +53,34 @@ EJ: git config --global --unset alias.s
 * Recursivo - Uniones automaticas - (Tampoco hay conflictos) - Trabaja con el algoritmo
 * Manual - (Donde hay conflictos - Y aca es donn hay que juntarse para resolver el conflicto)
 
+# GIT STASH
+**NOTA**: Los stash no estan disponibles en el remoto. SOLO en el LOCAL. No se sube al remoto.
+
+
+### Crear un stash
+
+    git stash
+
+### Veo los stash
+
+    git stash list
+
+### Para borrar un stash
+
+> borrar el ultimo stash
+
+    git stash drop
+
+> Borrar un stash particular
+
+    git stash drop <stash>
+
+> Aplicar un stash, el ultimo
+
+    git stash pop
+
+> Aplicar cualquier stash de los que tengo
+
+    git stash apply
+    git stash apply stash@{1}
+
