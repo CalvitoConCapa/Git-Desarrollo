@@ -85,3 +85,16 @@ EJ: git config --global --unset alias.s
     git stash apply stash@{1}
 
 ## GIT RESET
+
+> SOFT: me saca los commit y me deja todo en el Staging AREA
+
+    git reset --soft (lo deja es el stegin area [add .])
+
+> MIXED: Me saca los commits y me los deja en el Working DIRECTORY
+
+    git reset <número-hash>
+    git resen --mixed (lo lleva al working directori)
+
+> HARD(Peligroso, muito cudado): Borra los commits difinitivamente y los cambios
+
+    git reset hard
