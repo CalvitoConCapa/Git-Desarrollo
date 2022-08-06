@@ -65,3 +65,13 @@ Me permite etiquetar commits.
 > Para suber un Tag en especifico
 
     git push origin <nombre-tag>
+
+## GIT REBASE
+Me reordena los commits y me los fusiona. Si me quiero traer los cambios de dev a master, tengoq ue estar sobre la rama master y hacer un:
+
+    git rebase <rama-que-quiero-traer>
+    git rebase <dev>
+
+> Si tengo varios commits
+
+    git rebase --continue
